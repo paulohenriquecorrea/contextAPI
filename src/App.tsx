@@ -1,5 +1,6 @@
-import {Alunos} from './components/Alunos'
 import UserProvider from './contexts/user'
+import {Alunos} from './components/Alunos'
+import {Footer} from './components/Footer'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <br />
         <hr />
         <Alunos/>
+        <Footer />
       </>
     </UserProvider>
   )
